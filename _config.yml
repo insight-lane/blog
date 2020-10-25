@@ -1,15 +1,13 @@
-name:               "Ben Batorsky"
-description:        "Data Scientist and nice guy"
+name:               "Insight Lane"
+description:        "Open source platform for analyzing risk on road networks"
 
 url:                ""
 author:             "bpben"
-email:              "yksrotab@gmail.com"
+email:              "info@insightlane.org"
 gravatar_hash:      ""
-twitter:            "bpben2"
-email:              "yksrotab@gmail.com"
-github:             "bpben"
-linkedin:           "benjamin-batorsky-1b883b27"
-
+twitter:            "insight_lane"
+github:             "insight-lane"
+slack:             "https://join.slack.com/t/insightlane/shared_invite/zt-ewlvaic7-ymYlps33v2M2~RhC4DFRGg"
 disqus_shortname:   ""
 
 background:         "/resources/w-5273.jpg"

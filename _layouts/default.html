@@ -5,7 +5,7 @@
 <body class="preload">
     <div class="top"></div>
     <div class="profile" style="background-image: url({{ site.background }});">
-        <img src="{{ site.url }}/me.png" class="img-circle"/>
+        <img src="{{ site.url }}/il_logo.png" class="img-circle"/>
         <h3>{{ site.name }}</h3>
         <p>{{ site.description }}</p>
         <div class="social">
@@ -17,9 +17,9 @@
             <a type="button" href="http://twitter.com/{{ site.twitter }}">
                 <i class="fa fa-twitter"></i>
             </a>
-            {% endif %} {% if site.linkedin %}
-            <a type="button" href="http://linkedin.com/in/{{ site.linkedin }}">
-                <i class="fa fa-linkedin"></i>
+            {% endif %} {% if site.slack %}
+            <a type="button" href="{{ site.slack }}">
+                <i class="fab fa-slack"></i>
             </a>
             {% endif %} {% if site.pinterest %}
             <a type="button" href="http://pinterest.com/{{ site.pinterest }}">
