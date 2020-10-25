@@ -10,7 +10,8 @@ However, it’s difficult to translate this into an actual intervention.  Typica
 
 After some conversations with Boston, we realized this “high crash network” was an important development for the city.  We thought it might be important to make a similar functionality available in the Insight Lane platform.  So, building on the output of the model, we developed a method for determining high-risk routes.  Currently much of this work is experimental, but we’ve made the code available here: ().
 
-Building a “high crash network”
+_Building a “high crash network”_
+
 Since the risk scores are attached to individual segments of the road, we’re able to use them as attributes in routing algorithms available on Python libraries like NetworkX and OSMNX.  We first obtained every mile-long route in a specific section of Boston. For each segment along each route, we attached the risk score.  We then could take the 5 routes with the highest risk score (normalized by distance) for each mode and map them:
 
 <iframe style="position:relative;height:100%;width:100%" src="{{site.baseurl}}/assets/route_risk/boston_high_routes.html" allowfullscreen></iframe>
@@ -25,7 +26,8 @@ You can see they’re pretty different.  That’s because Boston uses crash dens
 
 Related to this is why the routes from Insight Lane appear a bit more “noisy”.  This is partially because Boston’s final map is the product of a lot of work from different groups, but also because our processing pipeline does its best to snap crash locations to the road network.  Spot checks show it does reasonably well, but there’s definitely some noise in the process (e.g. some of the high risk pedestrian routes go along the highway).
 
-Safe routes to school
+_Safe routes to school_
+
 Another initiative that Boston embarked on is Safe Routes to School (https://www.boston.gov/departments/transportation/sugar-hill-safety-improvements).  The goal here was to create a safer way for students and families to travel by foot or by bike in the Roxbury neighborhood.  We were interested in analyzing the risk of routes to school for pedestrians in the neighborhood and the relationship between this risk network and the roads targeted for intervention.
 
 As an example, we chose the Ellis Elementary School in Roxbury and identified all routes that were under a mile from the school.  Then, we identified where the highest risk and lowest risk routes were and mapped them:
@@ -37,7 +39,6 @@ Looking at this alongside the Safe Routes initiative map:
 <img src="{{site.baseurl}}/assets/route_risk/safe_routes.png">
 
 ([source](https://www.boston.gov/departments/transportation/sugar-hill-safety-improvements))
-
 
 We can see Boston’s plan definitely seems to be covering a lot of the last leg of routes to the Ellis school.  But we can also see that a lot of that area seems to be reasonably low risk as-is, based on our model.  “High risk” routes seem to reach that “high” status from roads that are outside of the safe routes network.  That may suggest that while the area close to the school will be safer, individuals coming from outside of that area may still be exposed to high risk routes.
 
