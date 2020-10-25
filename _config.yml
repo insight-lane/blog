@@ -22,7 +22,7 @@ markdown:           kramdown
 
 nav:
   - name:           "About"
-    href:           "/about"
+    href:           "/#about"
 
 sass:
   style:            :compressed
