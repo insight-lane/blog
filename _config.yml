@@ -2,8 +2,6 @@ name:               "Insight Lane"
 description:        "Open source platform for analyzing risk on road networks"
 
 baseurl: "/blog"
-production_url : https://insight-lane.github.io.com/blog
-BASE_PATH : http://insight-lane.com/blog
 
 url:                ""
 author:             "bpben"
@@ -18,7 +16,6 @@ background:         "/resources/w-5273.jpg"
 paginate:           5
 paginate_path:      "/page:num/"
 
-baseurl:            ""
 permalink:          /:year/:month/:day/:title/
 
 markdown:           kramdown
