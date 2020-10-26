@@ -14,7 +14,7 @@ _Building a “high crash network”_
 
 Since the risk scores are attached to individual segments of the road, we’re able to use them as attributes in routing algorithms available on Python libraries like NetworkX and OSMNX.  We first obtained every mile-long route in a specific section of Boston. For each segment along each route, we attached the risk score.  We then could take the 5 routes with the highest risk score (normalized by distance) for each mode and map them:
 
-<iframe style="position:relative;height:100%;width:100%" src="{{site.baseurl}}/assets/route_risk/boston_high_routes.html" allowfullscreen></iframe>
+<iframe style="position:relative;height:400px;width:100%" src="{{site.baseurl}}/assets/route_risk/boston_high_routes.html" allowfullscreen></iframe>
 
 Compare this to Boston’s analysis:
 
@@ -32,7 +32,7 @@ Another initiative that Boston embarked on is [Safe Routes to School](https://ww
 
 As an example, we chose the Ellis Elementary School in Roxbury and identified all routes that were under a mile from the school.  Then, we identified where the highest risk and lowest risk routes were and mapped them:
 
-<iframe style="position:relative;height:100%;width:100%" src="{{site.baseurl}}/assets/route_risk/school_routes.html" allowfullscreen></iframe>
+<iframe style="position:relative;height:400px;width:100%" src="{{site.baseurl}}/assets/route_risk/school_routes.html" allowfullscreen></iframe>
 
 Looking at this alongside the Safe Routes initiative map:
 
