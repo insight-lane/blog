@@ -7,4 +7,4 @@ This is an article written by one of our volunteers, Terry Franklin, a couple of
 
 Check it out:
 
-https://medium.com/data-for-democracy/insight-lane-seven-steps-to-an-effective-volunteer-data-science-project-6f3cd6761e92
+[https://medium.com/data-for-democracy/insight-lane-seven-steps-to-an-effective-volunteer-data-science-project-6f3cd6761e92](https://medium.com/data-for-democracy/insight-lane-seven-steps-to-an-effective-volunteer-data-science-project-6f3cd6761e92])
