@@ -1,8 +1,19 @@
 ---
 layout: default
 ---
-
 {% include header.html %}
+
+<!-- Look the author details up from the site config. -->
+{% assign author = site.data.authors[page.author] %}
+
+<!-- Output author details if some exist. -->
+{% if author %}
+    <span>
+        <!-- Personal Info. -->
+        Written by <a href="{{ author.web }}">{{ author.name }}</a>
+    </span>
+{% endif %}
+
 
 <div class="content post">
   <h1 class="post-title">{{ page.title }}</h1>
@@ -12,3 +23,4 @@ layout: default
   {{ content }}
 </div>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" ></script>
+

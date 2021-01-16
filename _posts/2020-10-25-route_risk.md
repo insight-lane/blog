@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Estimating route-level risk
+author: ben_batorsky
 ---
 In making improvements to the safety of the road network, cities want to be able to make the largest impact for each dollar they spend.  This means identifying the roadways that pose the most risk to residents, be they in a car, on a bike or on foot.  This is the need the Insight Lane platform is trying to address; providing intelligence about the road network with limited data and technical resources.
 

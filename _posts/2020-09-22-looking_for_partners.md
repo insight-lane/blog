@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Insight Lane is looking for city partners
+author: mo_johnson 
 ---
 
 An increase in bicycle sales, a reduction in commuting, families exploring their neighbors on evening walks — these are the unexpected side-effects of the COVID-19 pandemic. A survey [shows](https://www.cbsnews.com/news/americans-turn-to-cycling-coronavirus-pandemic-2020-05-20/) that some of these unintended habits will stick around after the pandemic is over. At Insight Lane, we hate covid but we love the diversification of road use. **We are looking for city partners and civic tech contributors as we launch new features to support safer road networks.**
